@@ -1,0 +1,75 @@
+/* Reset styles*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: #333;
+}
+/* Reset links */
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Reset: lists */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset: img */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset: tables */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  text-align: left;
+}
+
+/* Reset: button */
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Reset: inputs */
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
